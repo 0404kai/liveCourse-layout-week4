@@ -1,0 +1,186 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="container my-10 md:my-20 lg:mt-24">
+  <h1 class="font-bold text-2xl border-l-8 border-l-claret pl-3 mb-6 md:mb-8 md:text-48">門市據點</h1>
+  <div id="area">
+    <div class="flex items-center space-x-2 mb-6 md:space-x-4 lg:mb-10">
+      <label for="address" class="w-1/4 md:w-auto md:text-2xl">選擇地區</label>
+      <select id="address" class="w-full border-area text-area-dark/75 bg-[url('/assets/images/mobile/arror-drop.png')] focus:ring-0 focus:border-gray-dark md:w-[304px]">
+        <option value="taipei">台北市</option>
+        <option value="taichung">台中市</option>
+        <option value="kaohsiung">高雄市</option>
+      </select>
+    </div>
+    <ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-12">
+      <li>
+        <img src="assets/images/mobile/store-1.png" alt="store">
+        <h2 class="text-2xl border border-area-light px-6 py-2">台北中山旗艦店</h2>
+        <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              call
+            </span>
+            電話：<a href="tel:(02)000-1234">(02)000-1234</a>
+          </li>
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              schedule
+            </span>
+            <p>營業時間：10:00-21:00</p>
+          </li>
+          <li class="flex">
+            <span class="material-symbols-outlined mr-2 mt-1">
+              place
+            </span>
+            <p>地址：台北市中山區南京東路25巷2-1號</p>
+          </li>
+        </ul>
+        <a href="#" id="details" class="text-xl text-center text-white bg-black py-4 transition-all hover:bg-gray-dark">詳細資訊</a>
+      </li>
+      <li>
+        <img src="assets/images/mobile/store-2.png" alt="store">
+        <h2 class="text-2xl border border-area-light px-6 py-2">台北綠園店</h2>
+        <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              call
+            </span>
+            電話：<a href="tel:(02)000-2345">(02)000-2345</a>
+          </li>
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              schedule
+            </span>
+            <p>營業時間：10:00-21:00</p>
+          </li>
+          <li class="flex">
+            <span class="material-symbols-outlined mr-2 mt-1">
+              place
+            </span>
+            <p>地址：台北市中正區復興南路 132-1 號</p>
+          </li>
+        </ul>
+        <a href="#" class="text-xl text-center text-white bg-black py-4 transition-all hover:bg-gray-dark">詳細資訊</a>
+      </li>
+      <li>
+        <img src="assets/images/mobile/store-3.png" alt="store">
+        <h2 class="text-2xl border border-area-light px-6 py-2">台中清水旗艦店</h2>
+        <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              call
+            </span>
+            電話：<a href="tel:(02)000-1234">(02)000-1234</a>
+          </li>
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              schedule
+            </span>
+            <p>營業時間：10:00-21:00</p>
+          </li>
+          <li class="flex">
+            <span class="material-symbols-outlined mr-2 mt-1">
+              place
+            </span>
+            <p>地址：台中市清水區經南一路 23 號 8 樓</p>
+          </li>
+        </ul>
+        <a href="#" class="text-xl text-center text-white bg-black py-4 transition-all hover:bg-gray-dark">詳細資訊</a>
+      </li>
+      <li>
+        <img src="assets/images/mobile/store-4.png" alt="store">
+        <h2 class="text-2xl border border-area-light px-6 py-2">高雄中正形象店</h2>
+        <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              call
+            </span>
+            電話：<a href="tel:(07)000-2345">(07)000-2345</a>
+          </li>
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              schedule
+            </span>
+            <p>營業時間：10:00-21:00</p>
+          </li>
+          <li class="flex">
+            <span class="material-symbols-outlined mr-2 mt-1">
+              place
+            </span>
+            <p>地址：高雄市苓雅區中正路 38 號 12 樓</p>
+          </li>
+        </ul>
+        <a href="#" class="text-xl text-center text-white bg-black py-4 transition-all hover:bg-gray-dark">詳細資訊</a>
+      </li>
+      <li>
+        <img src="assets/images/mobile/store-5.png" alt="store">
+        <h2 class="text-2xl border border-area-light px-6 py-2">高雄夢時代店</h2>
+        <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              call
+            </span>
+            電話：<a href="tel:(07)000-1234">(07)000-1234</a>
+          </li>
+          <li class="flex items-center">
+            <span class="material-symbols-outlined mr-2">
+              schedule
+            </span>
+            <p>營業時間：10:00-21:00</p>
+          </li>
+          <li class="flex">
+            <span class="material-symbols-outlined mr-2 mt-1">
+              place
+            </span>
+            <p>地址：高雄市前鎮區中華一路 63 號 6 樓</p>
+          </li>
+        </ul>
+        <a href="#" class="text-xl text-center text-white bg-black py-4 transition-all hover:bg-gray-dark">詳細資訊</a>
+      </li>
+    </ul>
+  </div>
+  <div id="branch" class="hidden mb-16">
+    <div class="flex items-center space-x-2 mb-6 md:space-x-4 lg:mb-10">
+      <label for="addressBranch" class="w-1/4 md:w-auto md:text-2xl">選擇分店</label>
+      <select id="addressBranch" class="w-full border-area text-area-dark/75 bg-[url('/assets/images/mobile/arror-drop.png')] focus:ring-0 focus:border-gray-dark md:w-[304px]">
+        <option value="taipei">台北中山旗艦店</option>
+        <option value="taichung">台中大雅專賣店</option>
+        <option value="kaohsiung">高雄苓雅加盟店</option>
+      </select>
+    </div>
+    <div class="lg:flex lg:gap-6">
+      <div class="mb-6 md:flex md:gap-6 lg:w-5/12 lg:block lg:mb-0">
+        <img src="assets/images/mobile/store-1.png" alt="store" class="h-[224px] object-cover md:w-1/2 lg:w-full">
+        <div class="md:w-1/2 lg:w-full">
+          <h2 class="text-2xl border border-area-light px-6 py-2">台北中山旗艦店</h2>
+          <ul class="border border-area-light text-xl space-y-2 px-6 py-4">
+            <li class="flex items-center">
+              <span class="material-symbols-outlined mr-2">
+                call
+              </span>
+              電話：<a href="tel:(02)000-1234">(02)000-1234</a>
+            </li>
+            <li class="flex items-center">
+              <span class="material-symbols-outlined mr-2">
+                schedule
+              </span>
+              <p>營業時間：10:00-21:00</p>
+            </li>
+            <li class="flex">
+              <span class="material-symbols-outlined mr-2 mt-1">
+                place
+              </span>
+              <p>地址：台北市中山區南京東路25巷2-1號</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d465743.2933408488!2d120.9558744!3d24.2201031!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1658330976960!5m2!1szh-TW!2stw" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-52 md:h-[414px] lg:w-7/12"></iframe>
+    </div>
+  </div>
+</main>
