@@ -5,36 +5,82 @@ engine: ejs
 current: index
 ---
 
-<main class="flex justify-end items-center bg-[url('../images/mobile/home-header.png')] bg-cover h-[396px] md:h-[787px] lg:bg-[url('../images/desktop/home-header.png')]">
+<main
+  class="flex h-[396px] items-center justify-end bg-[url('../images/mobile/home-header.png')] bg-cover md:h-[787px] lg:bg-[url('../images/desktop/home-header.png')]"
+>
   <div class="container text-right text-claret-dark">
     <h2 class="md:text-4xl">Promise-Desert 2020 早春系列</h2>
-    <h1 class="text-2xl font-bold mb-2 md:text-6xl lg:mb-1">看得清，才能看得遠</h1>
-    <a href="productList.html" class="w-max text-white bg-claret ml-auto px-3 py-1.5 md:text-xl hover:bg-claret-dark transition-all duration-500">立即購買</a>
+    <h1 class="mb-2 text-2xl font-bold md:text-6xl lg:mb-1">
+      看得清，才能看得遠
+    </h1>
+    <a
+      href="productList.html"
+      class="ml-auto w-max bg-claret px-3 py-1.5 text-white transition-all duration-500 hover:bg-claret-dark md:text-xl"
+      >立即購買</a
+    >
   </div>
 </main>
 
 <section class="bg-claret-light py-10 md:py-20">
   <div class="container">
-    <h3 class="text-center text-2xl text-claret-dark font-bold mb-8 md:text-5xl">用專業的心，做專業的事</h3>
-    <ul class="space-y-8 md:grid md:grid-cols-2 md:gap-6 md:auto-rows-auto md:items-center md:space-y-0 lg:grid-cols-4">
+    <h3
+      class="mb-8 text-center text-2xl font-bold text-claret-dark md:text-5xl"
+    >
+      用專業的心，做專業的事
+    </h3>
+    <ul
+      class="space-y-8 md:grid md:auto-rows-auto md:grid-cols-2 md:items-center md:gap-6 md:space-y-0 lg:grid-cols-4"
+    >
       <li class="h-full">
-        <img src="./assets/images/desktop/home-section2-1.png" alt="price" class="w-[100px] mx-auto mb-6">
-        <h4 class="text-center text-2xl text-claret-dark font-bold mb-2">單一價格</h4>
-        <p class="">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+        <img
+          src="./assets/images/desktop/home-section2-1.png"
+          alt="price"
+          class="mx-auto mb-6 w-[100px]"
+        />
+        <h4 class="mb-2 text-center text-2xl font-bold text-claret-dark">
+          單一價格
+        </h4>
+        <p class="">
+          無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+        </p>
       </li>
       <li class="h-full">
-        <img src="./assets/images/desktop/home-section2-2.png" alt="time" class="w-[100px] mx-auto mb-6">
-        <h4 class="text-center text-2xl text-claret-dark font-bold mb-2">20 分鐘即可取件</h4>
-        <p class="">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+        <img
+          src="./assets/images/desktop/home-section2-2.png"
+          alt="time"
+          class="mx-auto mb-6 w-[100px]"
+        />
+        <h4 class="mb-2 text-center text-2xl font-bold text-claret-dark">
+          20 分鐘即可取件
+        </h4>
+        <p class="">
+          為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+          20 分鐘即可完成。
+        </p>
       </li>
       <li class="h-full">
-        <img src="./assets/images/desktop/home-section2-3.png" alt="service" class="w-[100px] mx-auto mb-6">
-        <h4 class="text-center text-2xl text-claret-dark font-bold mb-2">安心售後服務</h4>
-        <p class="">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+        <img
+          src="./assets/images/desktop/home-section2-3.png"
+          alt="service"
+          class="mx-auto mb-6 w-[100px]"
+        />
+        <h4 class="mb-2 text-center text-2xl font-bold text-claret-dark">
+          安心售後服務
+        </h4>
+        <p class="">
+          我們提供長達 120
+          天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+        </p>
       </li>
       <li class="h-full">
-        <img src="./assets/images/desktop/home-sectioin2-4.png" alt="about" class="w-[100px] mx-auto mb-6">
-        <h4 class="text-center text-2xl text-claret-dark font-bold mb-2">關於鏡片</h4>
+        <img
+          src="./assets/images/desktop/home-sectioin2-4.png"
+          alt="about"
+          class="mx-auto mb-6 w-[100px]"
+        />
+        <h4 class="mb-2 text-center text-2xl font-bold text-claret-dark">
+          關於鏡片
+        </h4>
         <p class="">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
       </li>
     </ul>
@@ -42,69 +88,141 @@ current: index
 </section>
 
 <section class="container my-10 md:my-20">
-  <h3 class="text-center text-2xl text-claret-dark font-bold mb-8 md:text-5xl md:mb-12">經典系列鏡框</h3>
-  <ul class="text-center space-y-6 lg:grid lg:grid-cols-3 lg:gap-6 lg:space-y-0">
+  <h3
+    class="mb-8 text-center text-2xl font-bold text-claret-dark md:mb-12 md:text-5xl"
+  >
+    經典系列鏡框
+  </h3>
+  <ul
+    class="space-y-6 text-center lg:grid lg:grid-cols-3 lg:gap-6 lg:space-y-0"
+  >
     <li>
-      <img src="./assets/images/desktop/home-section3-1.png" alt="demo" class="mb-2 md:w-[336px] md:mx-auto lg:w-[416px]">
-      <h4 class="text-5xl text-claret font-bold italic">OPTICAL</h4>
+      <img
+        src="./assets/images/desktop/home-section3-1.png"
+        alt="demo"
+        class="mb-2 md:mx-auto md:w-[336px] lg:w-[416px]"
+      />
+      <h4 class="text-5xl font-bold italic text-claret">OPTICAL</h4>
     </li>
     <li>
-      <img src="./assets/images/desktop/home-section3-2.png" alt="demo" class="mb-2 md:w-[336px] md:mx-auto lg:w-[416px]">
-      <h4 class="text-5xl text-claret font-bold italic">SUNGLASSES</h4>
+      <img
+        src="./assets/images/desktop/home-section3-2.png"
+        alt="demo"
+        class="mb-2 md:mx-auto md:w-[336px] lg:w-[416px]"
+      />
+      <h4 class="text-5xl font-bold italic text-claret">SUNGLASSES</h4>
     </li>
     <li>
-      <img src="./assets/images/desktop/home-section3-3.png" alt="demo" class="mb-2 md:w-[336px] md:mx-auto lg:w-[416px]">
-      <h4 class="text-5xl text-claret font-bold italic">FUNCTIONAL</h4>
+      <img
+        src="./assets/images/desktop/home-section3-3.png"
+        alt="demo"
+        class="mb-2 md:mx-auto md:w-[336px] lg:w-[416px]"
+      />
+      <h4 class="text-5xl font-bold italic text-claret">FUNCTIONAL</h4>
     </li>
   </ul>
 </section>
 
-<section class="bg-[url('../images/tablet/background-tablet.png')] bg-cover bg-center py-10 md:py-20 lg:bg-[url('../images/desktop/background-desktop.png')]">
+<section
+  class="bg-[url('../images/tablet/background-tablet.png')] bg-cover bg-center py-10 md:py-20 lg:bg-[url('../images/desktop/background-desktop.png')]"
+>
   <div class="container">
-    <h3 class="text-center text-2xl text-white font-bold mb-6 md:text-5xl md:mb-12">聯名設計鏡框</h3>
+    <h3
+      class="mb-6 text-center text-2xl font-bold text-white md:mb-12 md:text-5xl"
+    >
+      聯名設計鏡框
+    </h3>
     <ul class="space-y-6 lg:grid lg:grid-cols-2 lg:space-y-0">
       <li class="lg:border-r">
-        <img src="./assets/images/mobile/home-section4-1.png" class="h-[240px] w-full object-cover">
-        <h4 class="text-center text-5xl text-claret bg-white font-bold italic py-2">DOUBLE A+</h4>
+        <img
+          src="./assets/images/mobile/home-section4-1.png"
+          class="h-[240px] w-full object-cover"
+        />
+        <h4
+          class="bg-white py-2 text-center text-5xl font-bold italic text-claret"
+        >
+          DOUBLE A+
+        </h4>
       </li>
       <li>
-        <img src="./assets/images/mobile/home-section4-2.png" class="h-[240px] w-full object-cover">
-        <h4 class="text-center text-5xl text-claret bg-white font-bold italic py-2">YOUTH</h4>
+        <img
+          src="./assets/images/mobile/home-section4-2.png"
+          class="h-[240px] w-full object-cover"
+        />
+        <h4
+          class="bg-white py-2 text-center text-5xl font-bold italic text-claret"
+        >
+          YOUTH
+        </h4>
       </li>
     </ul>
   </div>
 </section>
 
 <section class="container my-10 md:my-20">
-  <h3 class="text-center text-2xl text-claret-dark font-bold mb-6 md:text-5xl md:mb-12">顧客推薦</h3>
-  <ul class="space-y-4 md:grid md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-4">
-    <li class="shadow-card rounded hover:shadow-card-lg transition-all duration-500">
-      <img src="./assets/images/desktop/home-section5-1.png" alt="customer" class="w-full max-h-[306px] object-cover">
-      <div class="flex flex-col min-h-[205px] p-4">
+  <h3
+    class="mb-6 text-center text-2xl font-bold text-claret-dark md:mb-12 md:text-5xl"
+  >
+    顧客推薦
+  </h3>
+  <ul
+    class="space-y-4 md:grid md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-4"
+  >
+    <li
+      class="rounded shadow-card transition-all duration-500 hover:shadow-card-lg"
+    >
+      <img
+        src="./assets/images/desktop/home-section5-1.png"
+        alt="customer"
+        class="max-h-[306px] w-full object-cover"
+      />
+      <div class="flex min-h-[205px] flex-col p-4">
         <h4 class="mb-2">Jessy</h4>
         <p class="mb-auto">眼鏡品質優良，下次還會想來這邊購買！</p>
         <span class="text-sm text-gray-dark">2021/06/20</span>
       </div>
     </li>
-    <li class="shadow-card rounded hover:shadow-card-lg transition-all duration-500">
-      <img src="./assets/images/desktop/home-section5-2.png" alt="customer" class="w-full max-h-[306px] object-cover">
-      <div class="flex flex-col min-h-[205px] p-4">
+    <li
+      class="rounded shadow-card transition-all duration-500 hover:shadow-card-lg"
+    >
+      <img
+        src="./assets/images/desktop/home-section5-2.png"
+        alt="customer"
+        class="max-h-[306px] w-full object-cover"
+      />
+      <div class="flex min-h-[205px] flex-col p-4">
         <h4 class="mb-2">凱倫</h4>
-        <p class="mb-auto">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+        <p class="mb-auto">
+          做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+        </p>
         <span class="text-sm text-gray-dark">2021/04/18</span>
       </div>
     </li>
-    <li class="shadow-card rounded hover:shadow-card-lg transition-all duration-500">
-      <img src="./assets/images/desktop/home-section5-3.png" alt="customer" class="w-full max-h-[306px] object-cover">
-      <div class="flex flex-col min-h-[205px] p-4">
+    <li
+      class="rounded shadow-card transition-all duration-500 hover:shadow-card-lg"
+    >
+      <img
+        src="./assets/images/desktop/home-section5-3.png"
+        alt="customer"
+        class="max-h-[306px] w-full object-cover"
+      />
+      <div class="flex min-h-[205px] flex-col p-4">
         <h4 class="mb-2">悠悠</h4>
-        <p class="mb-auto">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+        <p class="mb-auto">
+          謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+        </p>
         <span class="text-sm text-gray-dark">2020/12/25</span>
       </div>
     </li>
-    <li class="shadow-card rounded hover:shadow-card-lg transition-all duration-500">
-      <img src="./assets/images/desktop/home-section5-4.png" alt="customer" class="w-full max-h-[306px] object-cover">
-      <div class="flex flex-col min-h-[205px] p-4">
+    <li
+      class="rounded shadow-card transition-all duration-500 hover:shadow-card-lg"
+    >
+      <img
+        src="./assets/images/desktop/home-section5-4.png"
+        alt="customer"
+        class="max-h-[306px] w-full object-cover"
+      />
+      <div class="flex min-h-[205px] flex-col p-4">
         <h4 class="mb-2">Kyuan</h4>
         <p class="mb-auto">服務很好，品質沒有任何問題，非常喜歡。</p>
         <span class="text-sm text-gray-dark">2020/10/31</span>
@@ -115,30 +233,65 @@ current: index
 
 <section class="bg-claret-light py-10 md:py-20">
   <div class="container md:max-w-[576px] md:px-0 lg:max-w-[636px]">
-    <h3 class="text-center text-2xl text-claret-dark font-bold mb-6 md:text-5xl lg:mb-12">聯絡我們</h3>
-    <p class="mb-6 lg:text-xl">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+    <h3
+      class="mb-6 text-center text-2xl font-bold text-claret-dark md:text-5xl lg:mb-12"
+    >
+      聯絡我們
+    </h3>
+    <p class="mb-6 lg:text-xl">
+      我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+    </p>
     <form>
       <div class="mb-4">
         <label class="lg:mb-2" for="name">姓名</label>
-        <input type="text" id="name" placeholder="陳小明" class="bg-transparent placeholder:opacity-20 focus:ring-claret-dark focus:border-claret-dark">
+        <input
+          type="text"
+          id="name"
+          placeholder="陳小明"
+          class="bg-transparent placeholder:opacity-20 focus:border-claret-dark focus:ring-claret-dark"
+        />
       </div>
       <div class="mb-4">
         <label class="lg:mb-2" for="phone">聯絡電話</label>
-        <input type="tel" id="phone" placeholder="0912-345-678" class="bg-transparent placeholder:opacity-20 focus:ring-claret-dark focus:border-claret-dark">
+        <input
+          type="tel"
+          id="phone"
+          placeholder="0912-345-678"
+          class="bg-transparent placeholder:opacity-20 focus:border-claret-dark focus:ring-claret-dark"
+        />
       </div>
       <div class="mb-4">
         <label class="lg:mb-2" for="email">電子郵件</label>
-        <input type="email" id="email" placeholder="example@email.com" class="bg-transparent placeholder:opacity-20 focus:ring-claret-dark focus:border-claret-dark">
+        <input
+          type="email"
+          id="email"
+          placeholder="example@email.com"
+          class="bg-transparent placeholder:opacity-20 focus:border-claret-dark focus:ring-claret-dark"
+        />
       </div>
       <div class="mb-4">
         <label class="lg:mb-2" for="opinion">意見反應</label>
-        <textarea id="opinion" placeholder="請輸入您的意見" class="min-h-[136px] bg-transparent resize-none placeholder:opacity-20 focus:ring-claret-dark focus:border-claret-dark"></textarea>
+        <textarea
+          id="opinion"
+          placeholder="請輸入您的意見"
+          class="min-h-[136px] resize-none bg-transparent placeholder:opacity-20 focus:border-claret-dark focus:ring-claret-dark"
+        ></textarea>
       </div>
-      <div class="flex mb-4 md:mb-12">
-        <input type="checkbox" id="checkbox" class="rounded-sm bg-transparent transition-all duration-300 mr-1 mt-1 focus:ring-0 checked:text-claret-dark">
-        <label for="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+      <div class="mb-4 flex md:mb-12">
+        <input
+          type="checkbox"
+          id="checkbox"
+          class="mr-1 mt-1 rounded-sm bg-transparent transition-all duration-300 checked:text-claret-dark focus:ring-0"
+        />
+        <label for="checkbox"
+          >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
+        >
       </div>
-      <input type="submit" value="確認送出" class="block w-full text-white bg-claret py-4 md:w-[336px] md:mx-auto cursor-pointer hover:bg-claret-dark transition-all duration-500">
+      <input
+        type="submit"
+        value="確認送出"
+        class="block w-full cursor-pointer bg-claret py-4 text-white transition-all duration-500 hover:bg-claret-dark md:mx-auto md:w-[336px]"
+      />
     </form>
   </div>
 </section>
