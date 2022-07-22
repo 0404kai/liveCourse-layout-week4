@@ -932,10 +932,6 @@ select {
 .border {
   border-width: 1px;
 }
-.border-x {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
 .border-l-8 {
   border-left-width: 8px;
 }
@@ -967,9 +963,6 @@ select {
 .border-b-claret {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(170 6 1 / var(--tw-border-opacity));
-}
-.border-b-transparent {
-  border-bottom-color: transparent;
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -1032,6 +1025,36 @@ select {
 }
 .bg-\[url\(\'\/assets\/images\/mobile\/arror-drop\.png\'\)\] {
   background-image: url('/assets/images/mobile/arror-drop.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/home-header\.png\'\)\] {
+  background-image: url('../images/mobile/home-header.png');
+}
+.bg-\[url\(\'\.\.\/images\/tablet\/background-tablet\.png\'\)\] {
+  background-image: url('../images/tablet/background-tablet.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/home-section4-1\.png\'\)\] {
+  background-image: url('../images/mobile/home-section4-1.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/home-section4-2\.png\'\)\] {
+  background-image: url('../images/mobile/home-section4-2.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/product-header-1\.png\'\)\] {
+  background-image: url('../images/mobile/product-header-1.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/product-header-2\.png\'\)\] {
+  background-image: url('../images/mobile/product-header-2.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/product-header-3\.png\'\)\] {
+  background-image: url('../images/mobile/product-header-3.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/product-header-4\.png\'\)\] {
+  background-image: url('../images/mobile/product-header-4.png');
+}
+.bg-\[url\(\'\.\.\/images\/mobile\/arror-drop\.png\'\)\] {
+  background-image: url('../images/mobile/arror-drop.png');
+}
+.bg-\[url\(\'\.\.\/images\/desktop\/background-desktop\.png\'\)\] {
+  background-image: url('../images/desktop/background-desktop.png');
 }
 .bg-cover {
   background-size: cover;
@@ -1360,10 +1383,6 @@ select {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       -ms-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.hover\:border-b-claret:hover {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(170 6 1 / var(--tw-border-opacity));
 }
 .hover\:bg-gray-shallow:hover {
   --tw-bg-opacity: 1;
@@ -1922,6 +1941,14 @@ select {
 
   .lg\:bg-\[url\(\'\/assets\/images\/desktop\/background-desktop\.png\'\)\] {
     background-image: url('/assets/images/desktop/background-desktop.png');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/images\/desktop\/home-header\.png\'\)\] {
+    background-image: url('../images/desktop/home-header.png');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/images\/desktop\/background-desktop\.png\'\)\] {
+    background-image: url('../images/desktop/background-desktop.png');
   }
 
   .lg\:p-5 {
