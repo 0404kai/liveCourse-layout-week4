@@ -999,44 +999,11 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(183 89 41 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/assets\/images\/mobile\/home-header\.png\'\)\] {
-  background-image: url('/assets/images/mobile/home-header.png');
-}
-.bg-\[url\(\'\/assets\/images\/tablet\/background-tablet\.png\'\)\] {
-  background-image: url('/assets/images/tablet/background-tablet.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/home-section4-1\.png\'\)\] {
-  background-image: url('/assets/images/mobile/home-section4-1.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/home-section4-2\.png\'\)\] {
-  background-image: url('/assets/images/mobile/home-section4-2.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/product-header-1\.png\'\)\] {
-  background-image: url('/assets/images/mobile/product-header-1.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/product-header-2\.png\'\)\] {
-  background-image: url('/assets/images/mobile/product-header-2.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/product-header-3\.png\'\)\] {
-  background-image: url('/assets/images/mobile/product-header-3.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/product-header-4\.png\'\)\] {
-  background-image: url('/assets/images/mobile/product-header-4.png');
-}
-.bg-\[url\(\'\/assets\/images\/mobile\/arror-drop\.png\'\)\] {
-  background-image: url('/assets/images/mobile/arror-drop.png');
-}
 .bg-\[url\(\'\.\.\/images\/mobile\/home-header\.png\'\)\] {
   background-image: url('../images/mobile/home-header.png');
 }
 .bg-\[url\(\'\.\.\/images\/tablet\/background-tablet\.png\'\)\] {
   background-image: url('../images/tablet/background-tablet.png');
-}
-.bg-\[url\(\'\.\.\/images\/mobile\/home-section4-1\.png\'\)\] {
-  background-image: url('../images/mobile/home-section4-1.png');
-}
-.bg-\[url\(\'\.\.\/images\/mobile\/home-section4-2\.png\'\)\] {
-  background-image: url('../images/mobile/home-section4-2.png');
 }
 .bg-\[url\(\'\.\.\/images\/mobile\/product-header-1\.png\'\)\] {
   background-image: url('../images/mobile/product-header-1.png');
@@ -1052,9 +1019,6 @@ select {
 }
 .bg-\[url\(\'\.\.\/images\/mobile\/arror-drop\.png\'\)\] {
   background-image: url('../images/mobile/arror-drop.png');
-}
-.bg-\[url\(\'\.\.\/images\/desktop\/background-desktop\.png\'\)\] {
-  background-image: url('../images/desktop/background-desktop.png');
 }
 .bg-cover {
   background-size: cover;
@@ -1532,6 +1496,10 @@ select {
     width: 50%;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:max-w-\[576px\] {
     max-width: 576px;
   }
@@ -1617,8 +1585,17 @@ select {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
+  .md\:border-b {
+    border-bottom-width: 1px;
+  }
+
   .md\:border-none {
     border-style: none;
+  }
+
+  .md\:border-b-gray-dark {
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(112 112 112 / var(--tw-border-opacity));
   }
 
   .md\:bg-claret-dark {
@@ -1628,10 +1605,6 @@ select {
 
   .md\:bg-transparent {
     background-color: transparent;
-  }
-
-  .md\:bg-center {
-    background-position: center;
   }
 
   .md\:py-20 {
@@ -1661,6 +1634,10 @@ select {
 
   .md\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .md\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .md\:text-48 {
@@ -1933,14 +1910,6 @@ select {
 
   .lg\:border-r {
     border-right-width: 1px;
-  }
-
-  .lg\:bg-\[url\(\'\/assets\/images\/desktop\/home-header\.png\'\)\] {
-    background-image: url('/assets/images/desktop/home-header.png');
-  }
-
-  .lg\:bg-\[url\(\'\/assets\/images\/desktop\/background-desktop\.png\'\)\] {
-    background-image: url('/assets/images/desktop/background-desktop.png');
   }
 
   .lg\:bg-\[url\(\'\.\.\/images\/desktop\/home-header\.png\'\)\] {
